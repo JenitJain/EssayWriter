@@ -1,0 +1,35 @@
+.Essayeditor {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.essay-container {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Courier New', monospace;
+  color: #546271;
+  height: 400px;
+  overflow-y: auto;
+  width:'80%';
+  margin-top: px;
+}
+
+h2 {
+  color: #495057;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  60% {
+    opacity: 0;
+  }
+}
